@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CALC 2000</title>
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+  <div class="body-container">
+    <div id="calc">
+      <div class="model">
+        <h1 id="company">CALC 2000</h1>
+        <!--<img src="CASIO.svg" alt="casio logo" />-->
+      </div>
+      <div class="display">
+        <div id="displayExpression"></div>
+        <div id="displayMain">0</div>
+      </div>
+      <div class="calc-button-container">
+        <button class="calc-button input" data-name="nine" data-value="9" style="grid-area: nine">9</button>
+        <button class="calc-button input" data-name="eight" data-value="8" style="grid-area: eight">8</button>
+        <button class="calc-button input" data-name="seven" data-value="7" style="grid-area: seven">7</button>
+        <button class="calc-button input" data-name="six" data-value="6" style="grid-area: six">6</button>
+        <button class="calc-button input" data-name="five" data-value="5" style="grid-area: five">5</button>
+        <button class="calc-button input" data-name="four" data-value="4" style="grid-area: four">4</button>
+        <button class="calc-button input" data-name="three" data-value="3" style="grid-area: three">3</button>
+        <button class="calc-button input" data-name="two" data-value="2" style="grid-area: two">2</button>
+        <button class="calc-button input" data-name="one" data-value="1" style="grid-area: one">1</button>
+        <button class="calc-button input" data-name="zero" data-value="0" style="grid-area: zero">0</button>
+        <button class="calc-button input" data-name="dot" data-value="." style="grid-area: dot">.</button>
+        <button class="calc-button operator" data-name="div" data-value="÷" style="grid-area: div">÷</button>
+        <button class="calc-button operator" data-name="mul" data-value="×" style="grid-area: mul">×</button>
+        <button class="calc-button operator" data-name="sub" data-value="−" style="grid-area: sub">−</button>
+        <button class="calc-button operator" data-name="add" data-value="+" style="grid-area: add">+</button>
+        <button class="calc-button operator" data-name="exp" data-value="^" style="grid-area: exp"><img class="exp" src="./images/exp.svg"></button>
+        <button class="calc-button" data-name="backspace" style="grid-area: backspace"><img class="backspace" src="./images/backspace.svg"></button>
+        <button class="calc-button" data-name="equal" data-value="=" style="grid-area: equal">=</button>
+        <button class="calc-button calc-button-red" data-value="C" data-name="clear" style="grid-area: clear">C</button>
+      </div>
+    </div>
+  </div>
+
+  <!--SCRIPT-->
+  <script src="calc.js"></script>
+</body>
+
+</html>

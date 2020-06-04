@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Calc 2000",
+  "version": "1.0.1",
+  "description": "Simple, fast and powerful calculator",
+  "author": "Pawan Kolhe",
+  "offline_enabled": true,
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "calc.html"
+  },
+  "permissions": []
+}
