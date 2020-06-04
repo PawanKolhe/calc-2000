@@ -5,5 +5,5 @@ This basic calculator is more than just basic.
 
 ## CHROME EXTENSION
 #### Now available as a chrome extension:
-https://chrome.google.com/webstore/detail/calc-2000/mbicgfplgdbkhealkcljgplahbjjmnmo?authuser=1&hl=en
+https://chrome.google.com/webstore/detail/calc-2000/mbicgfplgdbkhealkcljgplahbjjmnmo
 
